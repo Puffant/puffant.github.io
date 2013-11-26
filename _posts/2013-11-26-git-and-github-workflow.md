@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Draft] Git and Github workflow
+title: Git and Github workflow - [Draft]
 date: 2013-11-26 14:29:15
 disqus: y
 ---
