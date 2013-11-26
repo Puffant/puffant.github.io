@@ -40,30 +40,5 @@ disqus: y
 
 除了 Topic 外其它的可以根据情况省略.
 
-例子:
 
-1. 功能分支 feature/124_chord_add-branch-naming
-2. 修复分支 hotfix/124_chord_name-is-wrong
-
-
-# Pull Request
-
-## 填写规范
-
-1. 凡不是merge之后就不需要任何命令行操作就可以跑起来的，
-需要`rake`、`bundle`、`导入导出`等操作的，都把需要的命令加入描述里。
-
-举例: [PR#49](https://github.com/layerssss/pfrails/pull/49)，在PR描述里，应该加上
-
-Before start:
-
-- `zeus rake db:migrate:redo VERSION=20130907102329`
-
-## 操作流程
-
-1. user1 -> 发起 PR
-2. user2 -> 发现 & 评论 PR 中的问题
-3. user1 -> amend PR
-4. user1 -> 评论 PR, 并 at user2 (发现问题的人)
-5. user2 -> merge PR
 
